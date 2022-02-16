@@ -4,6 +4,8 @@
 ### Do not forget to adjust the following variables to your own plugin.
 
 # The plugin's identifier, has to be unique
+from __future__ import absolute_import
+from __future__ import print_function
 plugin_identifier = "gitfiles"
 
 # The plugin's python package, should be "octoprint_<plugin identifier>", has to be unique
